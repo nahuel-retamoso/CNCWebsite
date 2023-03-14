@@ -5,7 +5,7 @@ import maderas from '../../public/maderas.jpg'
 
 const Materiales = () => {
     return (
-        <div className="flex flex-col items-center bg-black pt-20">
+        <div id="materiales" className="flex flex-col items-center bg-black pt-20">
             <h2 className="text-white bg-black text-xl">Materiales con los que trabajamos</h2>
             <div className="flex p-10 justify-around bg-black text-white w-full">
                 <div className="flex flex-col items-center bg-white/10 p-10 w-1/4">

@@ -1,6 +1,6 @@
 const Contacto = () => {
     return (
-        <div className="flex bg-black justify-around pt-40 pb-36">
+        <div id='contacto' className="flex bg-black justify-around pt-40 pb-36">
             <div className="flex flex-col text-white justify-center">
                 <div className="flex">    
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -8,14 +8,14 @@ const Contacto = () => {
                     </svg>
                     <h1 className="text-2xl mb-3 ml-3">Telefono</h1>
                 </div>
-                <p className="mb-10 ml-10">1150954463</p>
+                <p className="mb-10 ml-10">11-2390-7856</p>
                 <div className="flex">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                     </svg>
                     <h1 className="text-2xl mb-3 ml-3">Email</h1>
                 </div>
-                <p className="mb-10 ml-10">nahuel.retmaoso@gmail.com</p>
+                <p className="mb-10 ml-10">cncwebsite@gmail.com</p>
                 <div className="flex">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -23,7 +23,7 @@ const Contacto = () => {
                     </svg>
                     <h1 className="text-2xl mb-3 ml-3">Donde Estamos?</h1>
                 </div>
-                <p className="mb-10 ml-10">Mitre 4244, San Martin</p>
+                <p className="mb-10 ml-10">Balbin 4738, San Martin</p>
                 <div className="flex">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
