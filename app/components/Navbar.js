@@ -31,10 +31,10 @@ const Navbar = () => {
                 </div>
                 <nav className="absolute bottom-0 right-0 pr-80">
                     <ul className={`inline-flex h-16 space-x-20 text-white  ${IBM_Plex_San.variable} font-sans`}>
-                        <li className="flex items-center"><a href="#inicio">Inicio</a></li>
-                        <li className="flex items-center"><a href="#servicios">Servicios</a></li>
-                        <li className="flex items-center"><a href="#materiales">Materiales</a></li>
-                        <li className="flex items-center"><a href="#contacto">Contacto</a></li>
+                        <li className="flex items-center hover:text-yellow-600"><a href="#inicio">Inicio</a></li>
+                        <li className="flex items-center hover:text-yellow-600"><a href="#servicios">Servicios</a></li>
+                        <li className="flex items-center hover:text-yellow-600"><a href="#materiales">Materiales</a></li>
+                        <li className="flex items-center hover:text-yellow-600"><a href="#contacto">Contacto</a></li>
                     </ul>
                 </nav>
             </motion.div>
